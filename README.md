@@ -11,7 +11,8 @@
   <code><img width="5%" title="GitHub" src="./attachments/logo/github.png"></code>
   <code><img width="5%" title="Allure Report" src="./attachments/logo/allure_report.png"></code>
   <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins.png"></code>
-  <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid.png"></code>
+  <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid.png"></code> 
+  <code><img width="5%" title="Telegram" src="./attachments/logo/tg.png"></code>
 </p>
 
 ### Что выполняет тест:
@@ -43,3 +44,12 @@
 
 ##### Видео прохождение теста
 ![This is an image](attachments/video/tests_ui.gif)
+
+<!-- Telegram -->
+
+### <img width="3%" title="Telegram" src="attachments/logo/tg.png"> Telegram
+
+##### Настроила телеграм-бота, после прохождения тестов в Jenkins присылает уведомление с отчетом в Телеграм
+
+##### Скриншот отчета в телеграм
+![This is an image](attachments/screenshots/telegram.png)
