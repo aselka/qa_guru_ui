@@ -5,6 +5,8 @@ from allure_commons.types import Severity
 import allure
 
 
+@allure.id("17096")
+@allure.title("test_registration_user")
 def test_registration_user():
     with allure.step('Open practice form'):
         practice_form = PracticeForm(test_user)

@@ -12,6 +12,7 @@
   <code><img width="5%" title="Allure Report" src="./attachments/logo/allure_report.png"></code>
   <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins.png"></code>
   <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid.png"></code> 
+  <code><img width="5%" title="Allure TestOps" src="./attachments/logo/allure_testops.png"></code>
   <code><img width="5%" title="Telegram" src="./attachments/logo/tg.png"></code>
 </p>
 
@@ -39,11 +40,20 @@
 ##### Во вкладке Suites находятся подробные данные о прохождении теста с приложенными логами, скриншотами и видео о прохождении теста
 ![This is an image](attachments/screenshots/allure_suites.png)
 
-##### Скриншот прохождение теста
+##### Скриншот прохождения теста
 ![This is an image](attachments/screenshots/screen_tests.png)
 
-##### Видео прохождение теста
+##### Видео прохождения теста
 ![This is an image](attachments/video/tests_ui.gif)
+
+<!-- Allure testOps -->
+### <img width="3%" title="Allure TestOps" src="attachments/logo/allure_testops.png"> Allure TestOps
+
+##### Также настроена интеграция с Allure TestOps. После запуска тестов из Jenkins автоматически создается запуск в Allure TestOps. 
+![This is an image](attachments/screenshots/testops.png)
+
+##### Есть возможность выбрать нужные джобы из вкладки и запускать их (без посещения Jenkins)
+![This is an image](attachments/screenshots/jobs.png)
 
 <!-- Telegram -->
 
