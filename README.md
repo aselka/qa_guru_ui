@@ -13,6 +13,7 @@
   <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins.png"></code>
   <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid.png"></code> 
   <code><img width="5%" title="Allure TestOps" src="./attachments/logo/allure_testops.png"></code>
+  <code><img width="5%" title="Jira" src="./attachments/logo/jira.png"></code>
   <code><img width="5%" title="Telegram" src="./attachments/logo/tg.png"></code>
 </p>
 
@@ -55,11 +56,18 @@
 ##### Есть возможность выбрать нужные джобы из вкладки и запускать их (без посещения Jenkins)
 ![This is an image](attachments/screenshots/jobs.png)
 
+<!-- Jira -->
+
+### <img width="3%" title="Allure TestOps" src="attachments/logo/jira.png"> Jira
+
+##### Настроена интеграция с баг-трекинговой системой Jira
+![This is an image](attachments/screenshots/jira.png)
+
 <!-- Telegram -->
 
 ### <img width="3%" title="Telegram" src="attachments/logo/tg.png"> Telegram
 
-##### Настроила телеграм-бота, после прохождения тестов в Jenkins присылает уведомление с отчетом в Телеграм
+##### Настроен телеграм-бот, после прохождения тестов в Jenkins присылает уведомление с отчетом в Телеграм
 
 ##### Скриншот отчета в телеграм
 ![This is an image](attachments/screenshots/telegram.png)
