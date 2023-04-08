@@ -1,8 +1,17 @@
 from demoqa_tests.model.data.user import test_user
 from demoqa_tests.model.pages.practice_form import PracticeForm
+from time import sleep
+from allure_commons.types import Severity
+import allure
 
 
 def test_registration_user():
-    practice_form = PracticeForm(test_user)
-    practice_form.submit_form()
-    practice_form.should_have_submitted()
+    with allure.step('Open practice form'):
+        practice_form = PracticeForm(test_user)
+        sleep(1)
+    with allure.step('Submit form'):
+        practice_form.submit_form()
+        sleep(1)
+    with allure.step('Validate form'):
+        practice_form.should_have_submitted()
+        sleep(1)
