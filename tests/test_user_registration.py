@@ -11,10 +11,7 @@ import allure
 def test_registration_user():
     with allure.step('Open practice form'):
         practice_form = PracticeForm(test_user)
-        sleep(1)
     with allure.step('Submit form'):
         practice_form.submit_form()
-        sleep(1)
     with allure.step('Validate form'):
         practice_form.should_have_submitted()
-        sleep(1)
