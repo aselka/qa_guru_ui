@@ -1,7 +1,5 @@
 from demoqa_tests.model.data.user import test_user
 from demoqa_tests.model.pages.practice_form import PracticeForm
-from time import sleep
-from allure_commons.types import Severity
 import allure
 
 
