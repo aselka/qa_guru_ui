@@ -13,14 +13,23 @@ def load_env():
     load_dotenv()
 
 
-def open_browser():
+def pytest_addoption(parser):
+    parser.addoption('--browser_name', action='store', default="chrome",
+                     help="Choose browser: chrome or firefox")
+    parser.addoption('--browser_version', action='store', default="99.0")
+
+
+@pytest.fixture(scope='function', autouse=True)
+def open_browser(request):
+    browser_name = request.config.getoption('browser_name')
+    browser_version = request.config.getoption('browser_version')
     options = Options()
     selenoid_capabilities = {
-        "browserName": "chrome",
-        "browserVersion": "100.0",
+        "browserName": f"{browser_name}",
+        "browserVersion": f"{browser_version}",
         "selenoid:options": {
             "enableVNC": True,
-            "enableVideo": True
+            "enableVideo": True,
         }
     }
     options.capabilities.update(selenoid_capabilities)
