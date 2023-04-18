@@ -33,6 +33,7 @@ def open_browser():
     )
 
     browser.config.driver = driver
+    browser.config.base_url = 'https://demoqa.com'
     browser.config.window_width = 1600
     browser.config.window_height = 1440
 
